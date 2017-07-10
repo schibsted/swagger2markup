@@ -6,7 +6,10 @@
 === EnumString
 Enum string
 
-__Type__ : enum (ADDED, REMOVED, CHANGED)
+__Type__ : enum 
+- ADDED
+- REMOVED
+- CHANGED
 
 
 [[_simplestring]]

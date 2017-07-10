@@ -36,7 +36,7 @@ public class EnumType extends Type {
 
     @Override
     public String displaySchema(MarkupDocBuilder docBuilder) {
-        return String.format("enum (%s)", join(values, ", "));
+        return String.format("enum\n\n- %s", join(values, "\n- "));
     }
 
     public List<String> getValues() {
